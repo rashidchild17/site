@@ -1,0 +1,92 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: greenyellow;
+}
+
+main {
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 200px rgba(0, 0, 0, 20);
+}
+
+.pho {
+	width: 200px;
+	height: 100px;
+	background: blueviolet;
+	margin: 30px;
+	width: calc(60% - 20%);
+	height: calc((70vh)/16*9);
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5);
+	transition: all 0.5s ease;
+}
+
+.pho:hover {
+    transform: rotate(10deg) scale(1.5);
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 96px;
+}
+
+.pho1{
+background-image: url(../img/кот.jpg);
+}
+
+.pho2{
+background-image: url(../img/2.jpg);
+}
+
+.pho3{
+background-image: url(../img/3.jpg);
+}
+
+.pho4{
+background-image: url(../img/4.jpg);
+}
+
+.pho5{
+background-image: url(../img/5.jpg);
+}
+
+.pho6{
+background-image: url(../img/6.jpg);
+}
+
+.pho7{
+background-image: url(../img/7.jpg);
+}
+
+.pho8{
+background-image: url(../img/8.jpg);
+}
+
+.pho9{
+background-image: url(../img/9.jpg);
+}
+
+.pho10{
+background-image: url(../img/10.jpg);
+}
+
+.pho11{
+background-image: url(../img/11.jpg);
+}
+
+.pho12{
+background-image: url(../img/12.jpg);
+}
+
